@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/jinzhu/gorm"
 	"github.com/micro/go-log"
-	"microProject/basic/config"
+	"github.com/basic/config"
 	"sync"
 )
 

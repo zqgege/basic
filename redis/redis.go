@@ -3,7 +3,7 @@ package redis
 import (
 	"github.com/go-redis/redis"
 	"github.com/micro/go-log"
-	"microProject/basic/config"
+	"github.com/basic/config"
 	"sync"
 )
 

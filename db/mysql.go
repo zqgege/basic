@@ -3,7 +3,7 @@ package db
 import (
 	"github.com/jinzhu/gorm"
 	"github.com/micro/go-log"
-	"microProject/basic/config"
+	"github.com/basic/config"
 )
 
 func initMysql() {

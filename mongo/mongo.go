@@ -3,7 +3,7 @@ package mongo
 import (
 	"github.com/go-log/log"
 	"gopkg.in/mgo.v2"
-	"microProject/basic/config"
+	"github.com/basic/config"
 	_ "strconv"
 	"sync"
 	"time"

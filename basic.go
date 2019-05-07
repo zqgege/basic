@@ -1,10 +1,10 @@
 package basic
 
 import (
-	"microProject/basic/redis"
-	"microProject/basic/config"
-	"microProject/basic/db"
-	"microProject/basic/mongo"
+	"github.com/basic/redis"
+	"github.com/basic/config"
+	"github.com/basic/db"
+	"github.com/basic/mongo"
 )
 
 func Init()  {
