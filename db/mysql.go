@@ -16,6 +16,10 @@ func initMysql() {
 		log.Fatal(err)
 		panic(err)
 	}
+	//设置默认表名前缀
+	gorm.DefaultTableNameHandler = func(db *gorm.DB, defaultTableName string) string {
+		return "hi_" + defaultTableName
+	}
 
 	mysqlDB.SingularTable(true)
 
